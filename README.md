@@ -28,5 +28,17 @@ Where:
 
  Note that `#` will be the lowest unused integer within the role.
 
-## But...
-The current implementation has a couple bugs. There's a minimal set of tests that demonstrate 2 of the N bugs. Finding additional bugs, will probably require writing additional tests!
+
+# Dependencies
+
+This project works with Python >= 3.5. The test suite uses the [pytest](https://docs.pytest.org/en/latest/getting-started.html) module. 
+
+# Your Task
+
+The current implementation has a couple of bugs. There's a minimal set of tests that demonstrate some of the N bugs.
+
+Modify the test suite in `test_server.py` until it exposes all the bugs. You will probably need to add some of your own test cases. Running the pytests should report the additional bugs.
+
+You can run the tests by downloading or cloning this repository, then running the command `pytest` in the project directory.
+
+Please package your solution as a tarball, including a short text file summarizing your changes.
