@@ -29,11 +29,11 @@ Where:
  Note that `#` will be the lowest unused integer within the role.
 
 
-# Dependencies
+## Dependencies
 
 This project works with Python >= 3.5. The test suite uses the [pytest](https://docs.pytest.org/en/latest/getting-started.html) module. 
 
-# Your Task
+## Your Task
 
 The current implementation has a couple of bugs. There's a minimal set of tests that demonstrate some of the N bugs.
 
