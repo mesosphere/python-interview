@@ -33,12 +33,20 @@ Where:
 
 This project works with Python >= 3.5. The test suite uses the [pytest](https://docs.pytest.org/en/latest/getting-started.html) module. 
 
+## Running the tests
+
+You can run the tests by downloading or cloning this repository, installing the dependencies, then running the command `pytest` in the project directory.
+
 ## Your Task
 
 The current implementation has a couple of bugs. There's a minimal set of tests that demonstrate some of the N bugs.
 
-Modify the test suite in `test_server.py` until it exposes all the bugs. You will probably need to add some of your own test cases. Running the pytests should report the additional bugs.
+1. Create one text file, and in it, describe the currently exposed bugs.
+2. In the same text file, describe the other bugs you found.
+3. Modify `test_server.py` to expose the additional bugs. This should involve adding your own test cases as well as potentially modifying existing tests.
+4. In the file where you described the bugs, describe the changes you made to the test suite and why you made them.
 
-You can run the tests by downloading or cloning this repository, then running the command `pytest` in the project directory.
+To be clear, _do not modify `server.py`_. Running `pytest` on your submission should result in failed test cases that expose all of the bugs in `server.py`
 
-Please package your solution as a tarball, including a short text file summarizing your changes.
+
+Please package your solution as a tarball, including the text file summarizing the bugs and your changes.
